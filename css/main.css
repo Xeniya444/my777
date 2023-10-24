@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+ul,
+ol li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header {
+    background-color:#0A0A0A;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-right: 30px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+.menu li a,
+.phone {
+color: #717171;
+font-size: 24px;
+font-weight: 400;
+}
+
+.logo {
+    width: 15%;
+}
+
+.hero {
+  background-color: #F5F5F7;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.hero-inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-title {
+    color: #490e84;
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.hero-btn {
+color: #FFF;
+font-size: 24px;
+font-weight: 700;
+background-color: #490E84 ;
+padding-top: 20px;
+padding-bottom: 20px;
+width: 350px;
+height: 70px;
+text-align: center;
+border-radius: 30px;
+margin-top: 25px;
+}
+
+.new {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.title {
+text-align: center;
+color: #717171;
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 70px;
+}
+
+.new-inner {
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    width: 560px;
+    margin-right: 190px;
+}
+
+.left p {
+color:  #0A0A0A;
+font-size: 14px;
+font-weight: 400;
+line-height: 130%;
+margin-bottom: 30px;
+}
+
+.left p:last-child {
+    margin-bottom: 0;
+}
+.strong {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.color-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.color-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-item h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #0A0A0A;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.color p {
+    color: #0A0A0A;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 130%;
+}
+
+.block-order {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+
+.block1 {
+display: flex;
+background-color: #574B63;
+width: 600px;
+height: 600px;
+margin-top: 80px;
+margin-bottom: 83px;
+flex-direction: column;
+
+
+}
+
+.block2 {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    background-image: url(../image/hero_order.png);
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    margin-top: 80px;
+    margin-bottom: 83px;
+}
+
+.image {
+    width: 540px;
+    height: 600px;
+}
+
+.form {
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.want {
+color: #FFF;
+font-size: 32px;
+font-weight: 700;
+padding-left: 93px;
+padding-right: 170px;
+padding-top: 137px;
+}
+
+.input {
+display: flex;
+color: #F5F5F5;
+background-color: #574B63;
+width: 100%;
+border: none;
+border-bottom: 1px solid #F5F5F5;
+padding-bottom: 5px;
+padding-left: 99px;
+padding-right: 101px;
+padding-top: 60px;
+font-size: 14px;
+font-weight: 400;
+line-height: 130%;
+}
+
+.connect {
+color: #FFF;
+padding-top: 30px;
+padding-left: 115px;
+padding-right: 116px;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+}
+
+.button {
+color: #490E84;
+background-color: #FFF;
+text-align: center;
+padding-top: 16px;
+padding-bottom: 16px;
+padding-left: 81px;
+padding-right: 81px;
+width: 240px;
+height: 50px;
+border-radius: 20px;
+font-size: 14px;
+font-weight: 700;
+line-height: 130%;
+margin-top: 30px;
+margin-bottom: 154px;
+margin-left: 155px;
+margin-right: 135px;
+}
+
+.footer-inner {
+ background-color: #0A0A0A;
+ display: flex; 
+ justify-content: space-between; 
+ align-items: center;
+ padding-right: 60px;
+ padding-left: 60px;
+}
+
+.tx {
+padding-top: 66px;
+padding-bottom: 66px;
+color: #717171;
+font-size: 14px;
+font-weight: 400;
+line-height: 130%;
+}
+
+.phone2 {
+padding-top: 61px;
+padding-bottom: 60px;
+color: #717171;
+font-size: 24px;
+font-weight: 400;
+line-height: normal;    
+}
